@@ -31,10 +31,16 @@
     <main>        
         <div class="container">
             <form action="/login" method="post">
+                <img class="usuario" src="../img/image.png">
                 <input type="text" id="registration" name="registration" required placeholder="Login"><br><br>
+
+                <input type="number" id="registration1" name="registration1" >
+                <img id="iconeUsuario" class="iconeUsuario" src="../img/IconeLogin.png">
+
                 <div class="password-container">
                   <input type="password" id="password" name="password" required placeholder="Senha">
                   <img id="password-toggle" class="password-toggle" src="../img/Ativo 1.png" alt="Mostrar" onclick="mostrarSenha()">
+                  <img id="iconeCadeado" class="iconeCadeado" src="../img/CadeadoSenha.png">
                 </div>
                 <p><a style="text-decoration:none;color:#111E3E;" href="../senha/esqueceuSenha.html">Esqueceu a senha?</a></p>
                 <button type="submit">Entrar</button>
